@@ -1,0 +1,36 @@
+.card {
+    background-color: transparent;
+    border: none;
+    /* Optionally remove borders */
+}
+
+.quality {
+    width: 56%;
+    margin-left: 24%;
+
+}
+
+.qulity-btn {
+    background-color: rgb(1, 1, 1);
+    color: rgb(244, 110, 7);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Adjust the shadow as needed */
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    border: none;
+    /* Remove border if needed */
+    border-radius: 5px;
+    /* Optional: Add border radius */
+    text-decoration: none;
+    /* Remove default link underline */
+    display: inline-block;
+    /* Ensure it behaves like a button */
+    padding-left: initial;
+}
+
+.qulity-btn:hover {
+    color: rgb(244, 110, 7);
+    /* Change background color on hover if desired */
+    border-bottom: 2px solid rgb(244, 110, 7);
+}
+
